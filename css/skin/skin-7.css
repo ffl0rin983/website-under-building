@@ -1,0 +1,91 @@
+/*===================== 
+	Primary bg color 
+=====================*/
+
+/* Hex */
+#loading-area > div,
+.bg-primary,
+.about-sidebox .closebtn,
+a.bg-primary:hover,
+.overlay-primary-light:after,
+.overlay-primary-middle:after,
+.overlay-primary-dark:after,
+.site-button,
+.lg-actions .lg-next, 
+.lg-actions .lg-prev, 
+.lg-sub-html, 
+.lg-toolbar{
+    background-color: #9c684d;
+}
+
+/*Hex color :hover */
+.about-sidebox .closebtn:hover,
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.active > .site-button,
+.bg-primary-dark,
+.sidenav .closebtn:hover,
+.style-2 .dez-social-icon.dez-border li a:hover{
+    background-color: #daa478;
+}
+
+/*===================== 
+	Premery text color 
+=====================*/
+a,
+.text-primary,
+.site-button.outline,
+.dez-countdown .date .time,
+.lg-outer .lg-toogle-thumb,
+.lg-outer .lg-toogle-thumb:hover {
+    color: #9c684d;
+}
+
+/*===================== 
+	Border Color color 
+=====================*/
+.subscribe-box .form-control,
+.site-button.outline,
+.dez-countdown .date .time{
+	border-color:#9c684d;
+}
+
+.lg-outer .lg-thumb-item.active, 
+.lg-outer .lg-thumb-item:hover{
+	border-color: #9c684d;
+}
+
+/* GD */
+
+.style-1 .countdown .date .time{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2e79ff+0,5462ff+100 */
+	background: rgb(46,121,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(46,121,255,1) 0%, rgba(84,98,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(46,121,255,1) 0%,rgba(84,98,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(46,121,255,1) 0%,rgba(84,98,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e79ff', endColorstr='#5462ff',GradientType=1 ); /* IE6-9 */
+}
+.style-7 .dez-title{
+    background-image: linear-gradient(to top,#daa478 0,#ffc9ad 51%,#daa478 100%);
+	background-size: 200% 200%;
+}
+
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.contact-box .form-group:after,
+.style-1 .dez-social-icon li a,
+.site-button.gradient{
+    background-image: linear-gradient(to right,#9c684d 0,#daa478 51%,#9c684d 100%);
+	background-size: 200%;
+}
+.style-1 .dez-social-icon li a:hover,
+.site-button.gradient:hover{
+    background-position: right center;
+}
+#loading-area > div,
+.contact-box .form-group:after,
+.site-button.shadow{
+	box-shadow: 10px 10px 30px 0 rgba(156,104,77,0.25) !important;
+}

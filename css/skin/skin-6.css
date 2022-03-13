@@ -1,0 +1,54 @@
+/*===================== 
+	Primary bg color 
+=====================*/
+
+/* Hex */
+#loading-area > div,
+.bg-primary,
+a.bg-primary:hover,
+.overlay-primary-light:after,
+.overlay-primary-middle:after,
+.overlay-primary-dark:after,
+.site-button,
+.lg-actions .lg-next, 
+.lg-actions .lg-prev, 
+.lg-sub-html, 
+.lg-toolbar{
+    background-color: #936445;
+}
+
+/*Hex color :hover */
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.active > .site-button,
+.bg-primary-dark,
+.sidenav .closebtn:hover,
+.style-2 .dez-social-icon.dez-border li a:hover{
+    background-color: #a37455;
+}
+
+/*===================== 
+	Premery text color 
+=====================*/
+a,
+.text-primary,
+.site-button.outline,
+.dez-countdown .date .time,
+.lg-outer .lg-toogle-thumb,
+.lg-outer .lg-toogle-thumb:hover{
+    color: #936445;
+}
+
+/*===================== 
+	Border Color color 
+=====================*/
+.site-button.outline,
+.dez-countdown .date .time{
+	border-color:#936445;
+}
+
+.lg-outer .lg-thumb-item.active, 
+.lg-outer .lg-thumb-item:hover{
+	border-color: #936445;
+}

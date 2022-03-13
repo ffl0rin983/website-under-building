@@ -1,0 +1,77 @@
+/*===================== 
+	Primary bg color 
+=====================*/
+
+/* Hex */
+#loading-area > div,
+.bg-primary,
+.about-sidebox .closebtn,
+a.bg-primary:hover,
+.overlay-primary-light:after,
+.overlay-primary-middle:after,
+.overlay-primary-dark:after,
+.site-button,
+.lg-actions .lg-next, 
+.lg-actions .lg-prev, 
+.lg-sub-html, 
+.lg-toolbar{
+    background-color: #ffba00;
+}
+
+/*Hex color :hover */
+.about-sidebox .closebtn:hover,
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.active > .site-button,
+.bg-primary-dark,
+.sidenav .closebtn:hover,
+.style-2 .dez-social-icon.dez-border li a:hover{
+    background-color: #c90103;
+}
+
+/*===================== 
+	Premery text color 
+=====================*/
+a,
+.text-primary,
+.site-button.outline,
+.dez-countdown .date .time,
+.lg-outer .lg-toogle-thumb,
+.lg-outer .lg-toogle-thumb:hover {
+    color: #ffba00;
+}
+
+/*===================== 
+	Border Color color 
+=====================*/
+.subscribe-box .form-control,
+.site-button.outline,
+.dez-countdown .date .time{
+	border-color:#ffba00;
+}
+
+.lg-outer .lg-thumb-item.active, 
+.lg-outer .lg-thumb-item:hover{
+	border-color: #ffba00;
+}
+
+/* GD */
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.contact-box .form-group:after,
+.style-1 .dez-social-icon li a,
+.site-button.gradient{
+    background-image: linear-gradient(to right,#ffba00 0,#ffc529 51%,#ffba00 100%);
+	background-size: 200%;
+}
+.style-1 .dez-social-icon li a:hover,
+.site-button.gradient:hover{
+    background-position: right center;
+}
+#loading-area > div,
+.contact-box .form-group:after,
+.site-button.shadow{
+	box-shadow: 10px 10px 30px 0 rgba(255,186,0,0.25) !important;
+}
